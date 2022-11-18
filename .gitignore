@@ -1,0 +1,10 @@
+.env
+.pytest_cache/
+*__pycache*
+/docs/build/
+gadi_jobs/
+job_resources/
+std_logs/
+stdout/
+stderr/
+/train_dir

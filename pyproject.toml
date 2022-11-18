@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "thesis_v3"
+version = "0.1.0"
+description = ""
+authors = ["rana <usamar240@gmail.com>"]
+
+include = ["src", "scripts"]
+
+# Requirements
+[tool.poetry.dependencies]
+python = "^3.8"
+colorlog = "^6.6.0"
+faster-fifo = "^1.4.0"
+gym = "^0.21.0"
+JSBSim = "^1.1.12"
+NavPy = "^1.0"
+numpy = "^1.22.1"
+psutil = "^5.9.1"
+python-dotenv = "^0.20.0"
+tensorboard = "^2.5.1"
+threadpoolctl = "^3.1.0"
+torch = "1.11.0"
+toml = "^0.10.2"
+wandb = "^0.12.21"
+pygame = "^2.1.2"
+d3rlpy = "^1.1.1"
+matplotlib = "^3.6.1"
+seaborn = "^0.12.0"
+
+[tool.poetry.dev-dependencies]
+epc = "^0.0.5"
+flake8 = "^4.0.1"
+importmagic = "^0.1.7"
+pre-commit = "^2.20.0"
+pylint = "^2.14.4"
+pyright = "^1.1.261"
+Sphinx = "^5.3.0"
+tox = "^3.25.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+strictParameterNoneValue = "false"
+reportMissingTypeStubs = "false"
