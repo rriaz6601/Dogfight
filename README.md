@@ -71,5 +71,13 @@ setup WandB locally run `wandb login` in the terminal
 
 If my paper gets accepted I will add the citation here.
 
-For questions, issues, inquiries please email usamar240@gmail.com. Github issues and
+For questions, issues, inquiries please email r.riaz6601@gmail.com. Github issues and
 pull requests are welcome.
+
+
+## Special Thanks
+
+This project has drawn much inspiration and work from the following repos
+1. [Sample Factory](https://github.com/alex-petrenko/sample-factory)
+2. [Gym-JSBSim](https://github.com/Gor-Ren/gym-jsbsim)
+3. [XPlaneConnect](https://github.com/nasa/XPlaneConnect)
